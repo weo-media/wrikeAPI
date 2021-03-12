@@ -1,0 +1,19 @@
+{
+  "name": "wrikeAPI",
+  "version": "1.0.0",
+  "description": "for programmatic acrobatics with wrike data",
+  "main": "index.js",
+  "author": "Doug McKay",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "writDesc": "node writingDescriptions.js",
+    "setCids": "node SetAllCidForSeo.js",
+    "addDesc": "node addDescriptionToWrike.js"
+  }
+}
